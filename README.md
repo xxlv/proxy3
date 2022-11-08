@@ -11,7 +11,6 @@ HTTP/HTTPS proxy in a single python script
 * support HTTP/1.1 Persistent Connection
 * support dynamic certificate generation for HTTPS intercept
 
-This script works on Python 2.7.
 You need to install OpenSSL to intercept HTTPS connections.
 
 
@@ -20,7 +19,7 @@ You need to install OpenSSL to intercept HTTPS connections.
 Just run as a script:
 
 ```
-$ python proxy2.py
+$ python3 proxy3.py
 ```
 
 Above command runs the proxy on localhost:8080.
@@ -30,12 +29,12 @@ Verify it works by typing the below command on another terminal of the same host
 $ http_proxy=localhost:8080 curl http://www.example.com/
 ```
 
-proxy2 is made for debugging/testing, so it only accepts connections from localhost.
+proxy3 is made for debugging/testing, so it only accepts connections from localhost.
 
 To use another port, specify the port number as the first argument.
 
 ```
-$ python proxy2.py 3128
+$ python3 proxy3.py 3128
 ```
 
 
