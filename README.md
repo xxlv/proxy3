@@ -1,10 +1,10 @@
-# proxy2
+# proxy3
 
 HTTP/HTTPS proxy in a single python script
 
 
 ## Features
-
+* python3 support
 * easy to customize
 * require no external modules
 * support both of IPv4 and IPv6
